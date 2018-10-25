@@ -6,7 +6,10 @@ Students should use this [rubric](https://review.udacity.com/#!/projects/2696458
 For detailed instructions on how to get started, check out this [guide](https://docs.google.com/document/d/1v01aScPjSWCCWQLIpFqvg3-vXLH2e8_SZQKC8jNO0Dc/pub?embedded=true).
 
 ==================================
-# Leah's Instructions to Play:
+# Play Here:
+[https://leahquack.github.io/Classic-Arcade-Game/](Click)
+
+## Leah's Instructions to Play:
 Using your arrow keys, see how many times you can get across the board without getting hit by a bug!
 
 ### Technologies:
