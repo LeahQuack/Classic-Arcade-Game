@@ -7,7 +7,7 @@ For detailed instructions on how to get started, check out this [guide](https://
 
 ==================================
 # Play Here:
-[https://leahquack.github.io/Classic-Arcade-Game/](Click)
+[Click](https://leahquack.github.io/Classic-Arcade-Game/)
 
 ## Leah's Instructions to Play:
 Using your arrow keys, see how many times you can get across the board without getting hit by a bug!
