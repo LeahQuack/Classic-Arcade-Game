@@ -68,7 +68,7 @@ class Hero {
         }
         break;
       case 'up':
-        if (this.y > this.jump) {
+        if (this.y > 0) {
           this.y -= this.jump;
         }
         break;
@@ -92,10 +92,9 @@ class Hero {
         this.reset();
       }
     }
-    // Check for a winner
-      // Did player x and y reach final tile??
-      if(this.y === 55) {
-        this.victory = true;
+    // If player reaches water, reset
+      if(this.y <= 0) {
+        reset();
       }
   }
   reset () {
