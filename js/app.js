@@ -94,7 +94,7 @@ class Hero {
     }
     // If player reaches water, reset
       if(this.y <= 0) {
-        reset();
+        this.reset();
       }
   }
   reset () {
