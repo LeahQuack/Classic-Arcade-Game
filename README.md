@@ -23,10 +23,10 @@ Using your arrow keys, see how many times you can get across the board without g
 * [Matthew Cranford, the lifesaver!](https://matthewcranford.com/arcade-game-walkthrough-part-6-collisions-win-conditions-and-game-resets/)
 * All of the random CodePens and GitHubs I looked at because Imposter Syndrome - shoutout to the code community!
 * Udacity FEND Nanodegree Lessons
+* Special shoutout to the comments in [jameeldigital's](https://github.com/jameeldigital/Udacity-P3-Classic-Arcade-Game-Clone) code on GitHub... I FINALLY figured out how to reset the player when it hits the water thanks to their comments -- the code made sense.
 
 #### ToDo:
-1. Add Score for each time Hero reaches the water rather than just hitting the third row and turning back.
-2. Reset game so hero automatically ends up back in the grass to level up.
-3. Add More Bugs.
-4. Add a reward of some sort
-5. One guy had sounds ... I WANT SOUNDS!
+1. Add Score for each time Hero reaches the water rather than just hitting the third row and resetting.
+2. Add More Bugs.
+3. Add a reward of some sort
+4. One guy had sounds ... I WANT SOUNDS!
