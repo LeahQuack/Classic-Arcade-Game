@@ -1,3 +1,10 @@
+// EXTRA TEST
+var score = 0; // define score of the game
+var lives = 3; // plyaers default lives
+var level = 0;// game level
+
+
+
 // Enemies our player must avoid
 let Enemy = function(x,y, speed) {
   // x and y: x is horizonal, y is vertical
@@ -22,6 +29,7 @@ Enemy.prototype.update = function(dt) {
       // Move forward
       this.x += this.speed * dt;
     }
+
     else {
       // Reset to start
       this.x = this.resetPos;
@@ -40,7 +48,7 @@ Enemy.prototype.render = function() {
 // Hero class
 class Hero {
   constructor() {
-    this.sprite = 'images/char-cat-girl.png';
+    this.sprite = 'images/char-princess-girl.png';
     this.step = 101;
     this.jump = 83;
     this.startX = this.step * 2;
@@ -84,6 +92,7 @@ class Hero {
         break;
       }
   }
+
   update() {
     // Check collision
     for (let enemy of allEnemies) {
@@ -92,9 +101,11 @@ class Hero {
         this.reset();
       }
     }
-    // If player reaches water, reset
+    // Check for a winner
+      // Did player x and y reach final tile??
       if(this.y <= 0) {
         this.reset();
+        //this.victory = true;
       }
   }
   reset () {
@@ -107,14 +118,12 @@ class Hero {
 // Place all enemy objects in an array called allEnemies
 // Place the player object in a variable called player
 const player = new Hero();
-const bug1 = new Enemy(-101, 0, 200);
-const bug2 = new Enemy((-101*2.5), 83, 300);
-const bug3 = new Enemy(-101, 160, 250);
+//const bug1 = new Enemy(-101, 0, 150);
+const bug2 = new Enemy(-101, 0, 350);
+const bug3 = new Enemy((-101*2.5), 83, 300);
+const bug4 = new Enemy(-101, 166, 450);
 const allEnemies = [];
-allEnemies.push(bug1,bug2,bug3);
-
-
-
+allEnemies.push(bug2,bug3,bug4);
 
 // New Hero object
 
