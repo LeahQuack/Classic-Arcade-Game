@@ -26,7 +26,7 @@ Using your arrow keys, see how many times you can get across the board without g
 * Special shoutout to the comments in [jameeldigital's](https://github.com/jameeldigital/Udacity-P3-Classic-Arcade-Game-Clone) code on GitHub... I FINALLY figured out how to reset the player when it hits the water thanks to their comments -- the code made sense.
 
 #### ToDo:
-1. Add Score for each time Hero reaches the water rather than just hitting the third row and resetting.
+1. Add a WINNER or GAME OVER modal
 2. Add More Bugs.
 3. Add a reward of some sort
 4. One guy had sounds ... I WANT SOUNDS!
