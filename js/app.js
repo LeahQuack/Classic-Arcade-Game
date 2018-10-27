@@ -1,6 +1,5 @@
-// EXTRA TEST
+// Soreboard
 var score = 0; // define score of the game
-var lives = 3; // plyaers default lives
 var level = 0;// game level
 
 
@@ -118,18 +117,27 @@ class Hero {
 // Place all enemy objects in an array called allEnemies
 // Place the player object in a variable called player
 const player = new Hero();
-//const bug1 = new Enemy(-101, 0, 150);
-const bug2 = new Enemy(-101, 0, 350);
-const bug3 = new Enemy((-101*2.5), 83, 300);
-const bug4 = new Enemy(-101, 166, 450);
+const bug1 = new Enemy(-101, 0, 350);
+const bug2 = new Enemy((-101*2.5), 83, 300);
+const bug3 = new Enemy(-101, 166, 450);
 const allEnemies = [];
-allEnemies.push(bug2,bug3,bug4);
+allEnemies.push(bug1,bug2,bug3);
 
-// New Hero object
-
-// Init allEnemies Array
-// For each enemy create and push new Enemy object into above array
-
+//SCOREBOARD WOO!
+renderScoreBoard = function() {
+  ctx.fillStyle = '#c186d6'; // Purple Header Background
+  ctx.fillRect(0, 0, 505, 50);
+  ctx.strokeStyle = "#6d2b64"; // Letter Outline
+  //ctx.fillStyle = '#c186d6';
+  //ctx.font = "18px Helvetica";
+  ctx.strokeText("SCORE: ", 310, 30);
+  ctx.strokeText("LEVEL: ", 200, 30);
+  ctx.strokeText("Princess Frogger", 20, 30);
+  ctx.font = "18px Arial";
+  ctx.strokeText(score, 385, 30);
+  ctx.strokeText(level, 270, 30);
+  ctx.save();
+};
 
 // This listens for key presses and sends the keys to your
 // Player.handleInput() method. You don't need to modify this.
