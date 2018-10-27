@@ -104,8 +104,11 @@ class Hero {
       // Did player x and y reach final tile??
       if(this.y <= 0) {
         this.reset();
-        //this.victory = true;
+        level = level + 1;
+        score = score + 10;
       }
+    if (score >= 50) {
+    }
   }
   reset () {
     this.y = this.startY;
@@ -128,8 +131,6 @@ renderScoreBoard = function() {
   ctx.fillStyle = '#c186d6'; // Purple Header Background
   ctx.fillRect(0, 0, 505, 50);
   ctx.strokeStyle = "#6d2b64"; // Letter Outline
-  //ctx.fillStyle = '#c186d6';
-  //ctx.font = "18px Helvetica";
   ctx.strokeText("SCORE: ", 310, 30);
   ctx.strokeText("LEVEL: ", 200, 30);
   ctx.strokeText("Princess Frogger", 20, 30);
