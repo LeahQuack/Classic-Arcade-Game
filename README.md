@@ -35,3 +35,4 @@ Using your arrow keys, see how many times you can get across the board without g
 2. Add More Bugs.
 3. Add a reward of some sort
 4. One guy had sounds ... I WANT SOUNDS!
+I'll be coming back after the nanodegree to make this far less cookie-cutter!
