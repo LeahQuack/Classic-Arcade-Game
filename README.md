@@ -6,7 +6,12 @@ Students should use this [rubric](https://review.udacity.com/#!/projects/2696458
 For detailed instructions on how to get started, check out this [guide](https://docs.google.com/document/d/1v01aScPjSWCCWQLIpFqvg3-vXLH2e8_SZQKC8jNO0Dc/pub?embedded=true).
 
 ==================================
-# Play Here:
+# Play Locally:
+* Download the repository on your machine as a .zip file
+* Extract all files (right-click the .zip and click Extract All)
+* Open index.html on your browser (right-click index.html, choose Open With > YourBrowserName)
+
+# Play Online Through GitHub Here:
 [Click](https://leahquack.github.io/Classic-Arcade-Game/)
 
 ## Leah's Instructions to Play:
