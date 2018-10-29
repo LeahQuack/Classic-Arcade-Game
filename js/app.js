@@ -1,4 +1,4 @@
-"use strict";
+
 var score = 0; // define score of the game
 var level = 0; // game level
 
